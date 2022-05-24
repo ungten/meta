@@ -1,0 +1,123 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1440px;
+  }
+  .artist__inner .artist__list {
+    -ms-grid-columns: minmax(auto, 245px) minmax(auto, 245px) minmax(auto, 245px);
+        grid-template-columns: minmax(auto, 245px) minmax(auto, 245px) minmax(auto, 245px);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .partners__inner .partners__block {
+    -ms-grid-columns: minmax(auto, 322px) minmax(auto, 322px);
+        grid-template-columns: minmax(auto, 322px) minmax(auto, 322px);
+  }
+  .team__inner .team-block {
+    -ms-grid-columns: 320px;
+        grid-template-columns: 320px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+  .artist__inner .artist__list {
+    -ms-grid-columns: minmax(auto, 245px) minmax(auto, 245px);
+        grid-template-columns: minmax(auto, 245px) minmax(auto, 245px);
+  }
+  .mrl__inner .menu {
+    display: block;
+  }
+  .mrl__inner .menu-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .discord__inner .discord__column {
+    margin: 0px auto;
+  }
+  .discord__inner .discord__column img {
+    display: none;
+  }
+  .partners__inner .partners__block {
+    -ms-grid-columns: minmax(auto, 322px);
+        grid-template-columns: minmax(auto, 322px);
+  }
+  .record-label__inner .waves {
+    display: none;
+  }
+  .faq__inner .faq__block {
+    display: block;
+  }
+  .faq__inner .faq__column {
+    margin: 0px auto;
+  }
+  .faq__inner .faq__column .column__title {
+    text-align: center;
+  }
+  .faq__inner .faq__column img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__inner .header__menu {
+    display: none;
+  }
+  .header__inner .mobile__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header__inner .header__mobile {
+    display: block;
+  }
+  .nft__inner .nft__row {
+    display: block;
+  }
+  .nft__inner .nft__row .nft__column {
+    margin: 0px auto;
+  }
+  .mrl__inner .menu .menu-btn {
+    display: block;
+  }
+  .mrl__inner .menu-info .menu__item img {
+    display: none;
+  }
+  .artist__inner .artist__list {
+    -ms-grid-columns: 245px;
+        grid-template-columns: 245px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mrl__inner {
+    max-width: 100%;
+  }
+  footer .footer__inner .footer__block {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .nft__inner .nft__row {
+    display: block;
+  }
+  .mrl__inner .menu-info .menu__item img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
